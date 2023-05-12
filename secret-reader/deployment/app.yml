@@ -8,7 +8,7 @@ spec:
   serviceAccountName: default
   containers:
   - name: secret-reader
-    image: docker.io/ashishmahawal/read-secret
+    image: docker.io/ashishmahawal/read-secret:1.0.0
     imagePullPolicy: IfNotPresent
     resources:
       limits:
